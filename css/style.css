@@ -1,0 +1,151 @@
+#navbarNav{
+    display: flex;
+    padding-right: 50vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 600px;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+
+}
+
+.nav-item a:hover{
+    
+    border-radius: 67px;
+    background: #fe730c;
+    transform: translate(0%, 0%);
+   transition: 300ms;
+
+}
+
+.dropdown-menu a:hover{
+    background-color: transparent !important;
+}
+
+
+/* CAROUSEL */
+
+.btn{
+    height: 60px;
+    width: auto;
+    background-color: #fe730c;
+    color: white;
+    text-transform: uppercase;
+    border-top-left-radius: 18px 18px !important;
+    border-bottom-right-radius: 18px 18px;
+    border-top-right-radius: 5px 2px;
+    border-bottom-left-radius: 5px 2px;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+    outline: none;
+}
+
+.carousel-inner .d-block{
+    height: 500px;
+    width: auto;
+}
+
+.carousel-caption{
+    padding-bottom: 170px;
+}
+
+.indicator{
+    width: 40px !important;
+    height: 25px !important;
+    border-radius: 10px !important;
+    background-color: #fe730c !important;
+}
+
+/*card*/
+.card{
+    position: relative;
+}
+
+.card-content {
+    box-shadow: o 1rem 1rem rgba(0, 0, 0, .5);
+    transition: all 2s;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.card-back{
+    transform: rotateY(180deg);
+
+}
+
+.card:hover .card-front {
+    transform: rotateY(-100deg);
+}
+
+.card:hover .card-back {
+    transform: rotateY(0);
+}
+
+.readMore{
+    color:#fe730c;
+}
+
+.card-img-top{
+    height: 200px !important;
+}
+
+.cardfooterColumnRight{
+    border-right: 1px solid #ccccb3;
+}
+
+.readMore{
+    color:#fe730c; 
+}
+
+/*FOOTER*/
+.footerContainer{
+    margin-top: 500px !important;
+    padding-left: 50px;
+    background-color: #010111;
+}
+
+.footerfirstRow{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.footerfirstRow p,h6,a{
+    color:white
+}
+
+.footerfirstRow a:hover{
+    color:#fe730c
+}
+
+.footerfirstRow p:hover{
+    color:#fe730c ;
+}
+
+.footerSecondRow{
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.footerSecondRow {
+    text-align: center;
+    color: #ccccb3;
+}
+
+#mySelf{
+    border-radius: 89px;
+}
+
